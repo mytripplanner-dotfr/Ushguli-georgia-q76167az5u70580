@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Ushguli georgia</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 42.5267696, lng: 43.3211557 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":41.6938026,"lng":44.80151679999999,"name":"Tbilissi","jour":1,"titre":"Arrivée à Tbilissi et première immersion","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=41.6938026,44.80151679999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=41.6938026,44.80151679999999","aiImageUrl":"jour1.jpg"},{"lat":41.6938026,"lng":44.80151679999999,"name":"Tbilissi / Zougdidi / Mestia","jour":3,"titre":"Voyage vers la Svanétie: En route pour Mestia","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=41.6938026,44.80151679999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=41.6938026,44.80151679999999","aiImageUrl":"jour3.jpg"},{"lat":43.04317090000001,"lng":42.7212908,"name":"Mestia","jour":4,"titre":"Mestia: Découverte des Tours Svanes","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=43.04317090000001,42.7212908&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=43.04317090000001,42.7212908","aiImageUrl":"jour4.jpg"},{"lat":42.915824,"lng":43.0189245,"name":"Mestia / Ushguli","jour":5,"titre":"Excursion à Ushguli: Le Village le plus haut d'Europe","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=42.915824,43.0189245&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=42.915824,43.0189245","aiImageUrl":"jour5.jpg"},{"lat":42.915824,"lng":43.0189245,"name":"Ushguli","jour":6,"titre":"Randonnée et Immersion à Ushguli","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=42.915824,43.0189245&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=42.915824,43.0189245","aiImageUrl":"jour6.jpg"},{"lat":42.915824,"lng":43.0189245,"name":"Ushguli / Mestia","jour":7,"titre":"Retour vers Mestia et Vues Panoramiques","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=42.915824,43.0189245&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=42.915824,43.0189245","aiImageUrl":"jour7.jpg"},{"lat":42.5091391,"lng":41.866992,"name":"Mestia / Zougdidi / Tbilissi","jour":8,"titre":"Retour vers Tbilissi et dernière soirée géorgienne","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=42.5091391,41.866992&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=42.5091391,41.866992","aiImageUrl":"jour8.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
