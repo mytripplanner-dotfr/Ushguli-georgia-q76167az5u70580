@@ -1,0 +1,296 @@
+{
+  "pays": "Géorgie",
+  "drapeau": "🇬🇪",
+  "symbole": "⛰️",
+  "titre": "Ushguli: Trésor Caché du Caucase Géorgien",
+  "budget_total": "1700-1900€",
+  "duree": "9 jours",
+  "temps_vol": "environ 4h30 (vol direct) ou 6-8h (avec escale) depuis Paris, France",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Tbilissi et première immersion",
+      "legende": "Après un vol depuis Paris, vous atterrirez dans la vibrante capitale géorgienne. Prenez le temps de vous installer et de vous rafraîchir avant de faire vos premiers pas dans les ruelles chargées d'histoire. Laissez-vous charmer par l'atmosphère unique du Vieux Tbilissi et savourez un premier repas aux saveurs locales.",
+      "lieu": "Tbilissi",
+      "activites": [
+        "🛬 <strong>Arrivée à Tbilissi et installation à l'hôtel</strong>: Après votre vol, un transfert vous mènera à votre hôtel au cœur de Tbilissi pour vous permettre de vous reposer et de vous préparer pour l'aventure.",
+        "🚶‍♂️ <strong>Balade découverte dans le Vieux Tbilissi</strong>: Profitez de l'après-midi pour une promenade relaxante. Admirez les balcons sculptés, les églises anciennes et l'ambiance éclectique de ce quartier historique."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Monnaie locale",
+          "texte": "La monnaie en Géorgie est le Lari (GEL). Il est conseillé d'avoir un peu de liquide pour les petits commerces ou les marchés."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🌆",
+      "titre": "Tbilissi: Culture, Histoire et Bains de Soufre",
+      "legende": "Plongez au cœur de l'histoire et de la culture géorgienne en explorant les sites emblématiques de Tbilissi. Des majestueuses cathédrales aux forteresses perchées, chaque coin de rue raconte une histoire. Terminez la journée par une expérience relaxante et traditionnelle dans les célèbres bains de soufre, un incontournable de la capitale.",
+      "lieu": "Tbilissi",
+      "activites": [
+        "⛪ <strong>Visite de la Cathédrale de la Sainte Trinité (Sameba)</strong>: Découvrez l'une des plus grandes cathédrales orthodoxes du monde, un symbole moderne de la Géorgie, offrant une vue imprenable sur la ville.",
+        "🚠 <strong>Montée à la Forteresse de Narikala et Bains de Soufre</strong>: Prenez le téléphérique pour atteindre la forteresse de Narikala, offrant un panorama spectaculaire sur Tbilissi. Descendez ensuite vers le quartier d'Abanotubani pour une séance de relaxation dans les bains de soufre."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🍽️",
+          "titre": "Gastronomie",
+          "texte": "Ne manquez pas de goûter les Khinkali (raviolis) et les Khachapuri (pain au fromage), des spécialités géorgiennes délicieuses et réconfortantes."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Conseil",
+          "texte": "Réservez votre séance aux bains de soufre à l'avance, surtout si vous souhaitez une salle privée, car ils sont très populaires."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🚆",
+      "titre": "Voyage vers la Svanétie: En route pour Mestia",
+      "legende": "Laissez derrière vous l'effervescence de la capitale pour vous aventurer vers les majestueuses montagnes du Caucase. Un voyage pittoresque vous mènera au cœur de la Svanétie, une région isolée et authentique. Le trajet, combinant train de nuit et minibus, est une immersion progressive dans des paysages grandioses, prélude à l'aventure montagnarde.",
+      "lieu": "Tbilissi / Zougdidi / Mestia",
+      "activites": [
+        "🚆 <strong>Trajet Tbilissi - Zougdidi en train de nuit</strong>: Embarquez pour un train de nuit confortable depuis Tbilissi jusqu'à Zougdidi, la ville la plus proche de la Svanétie. C'est une manière authentique de voyager et d'économiser du temps.",
+        "🚐 <strong>Transfert Zougdidi - Mestia en marshrutka ou 4x4</strong>: À votre arrivée à Zougdidi, un minibus local (marshrutka) ou un véhicule 4x4 vous attendra pour le trajet scénique vers Mestia, à travers des paysages montagneux époustouflants."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🎒",
+          "titre": "Préparation",
+          "texte": "Prévoyez un petit sac à dos pour le train de nuit avec l'essentiel. Votre bagage principal sera stocké en sécurité."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Paysages",
+          "texte": "Gardez votre appareil photo à portée de main pendant le trajet vers Mestia, les vues sont spectaculaires."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏔️",
+      "titre": "Mestia: Découverte des Tours Svanes",
+      "legende": "Imprégnez-vous de l'atmosphère unique de Mestia, capitale de la Haute Svanétie. Cette journée est dédiée à l'exploration de ses célèbres tours défensives, symboles de la culture svane et de leur histoire. Visitez le musée local pour comprendre le passé fascinant de cette région isolée et terminez par une balade au cœur du village.",
+      "lieu": "Mestia",
+      "activites": [
+        "🏛️ <strong>Visite du Musée d'Histoire et d'Ethnographie de Svanétie</strong>: Plongez dans le riche passé de la région en explorant ce musée qui abrite des trésors archéologiques, des icônes médiévales et des objets traditionnels svanes.",
+        "🚶‍♀️ <strong>Exploration des tours svanes et du centre de Mestia</strong>: Promenez-vous dans les ruelles de Mestia, admirez les tours défensives en pierre qui se dressent fièrement contre les montagnes, et imprégnez-vous de l'architecture unique de la ville."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🏘️",
+          "titre": "Hébergement",
+          "texte": "À Mestia, de nombreuses guesthouses offrent une immersion authentique avec des repas faits maison, souvent inclus."
+        },
+        {
+          "symbole": "🚶",
+          "titre": "Chaussures",
+          "texte": "Prévoyez de bonnes chaussures de marche, les rues de Mestia peuvent être inégales et caillouteuses."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🏞️",
+      "titre": "Excursion à Ushguli: Le Village le plus haut d'Europe",
+      "legende": "Le point culminant de votre voyage vous attend avec une excursion inoubliable vers Ushguli. Ce site classé au patrimoine mondial de l'UNESCO est un véritable musée à ciel ouvert, où le temps semble s'être arrêté au pied du mont Chkhara. Le trajet en 4x4 est une aventure en soi, offrant des vues spectaculaires sur les paysages alpins.",
+      "lieu": "Mestia / Ushguli",
+      "activites": [
+        "⛰️ <strong>Trajet panoramique Mestia - Ushguli en 4x4</strong>: Empruntez une route spectaculaire en 4x4 pour atteindre Ushguli, le village habité le plus haut d'Europe. Le trajet offre des vues à couper le souffle sur les glaciers et les vallées.",
+        "🚶‍♂️ <strong>Découverte des quatre villages d'Ushguli et de ses tours</strong>: Explorez les quatre hameaux qui composent Ushguli, admirez ses nombreuses tours svanes médiévales et visitez l'église Lamaria, offrant un cadre idyllique."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "UNESCO",
+          "titre": "Patrimoine Mondial",
+          "texte": "Ushguli est inscrit au patrimoine mondial de l'UNESCO pour ses tours défensives médiévales et son paysage culturel unique."
+        },
+        {
+          "symbole": "🌡️",
+          "titre": "Météo",
+          "texte": "La météo en montagne peut changer rapidement. Prévoyez des couches de vêtements et un imperméable, même en été."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🥾",
+      "titre": "Randonnée et Immersion à Ushguli",
+      "legende": "Profitez d'une journée complète pour vous immerger dans la beauté sauvage d'Ushguli et de ses environs. Que vous choisissiez une randonnée exigeante vers le glacier de Shkhara ou une balade plus douce le long des sentiers locaux, vous serez entouré par des paysages grandioses. C'est l'occasion de rencontrer des bergers et de découvrir la vie authentique des Svanes.",
+      "lieu": "Ushguli",
+      "activites": [
+        "🥾 <strong>Randonnée vers le glacier de Shkhara (ou balade plus courte)</strong>: Lancez-vous dans une randonnée mémorable vers les contreforts du mont Shkhara, le plus haut sommet de Géorgie, pour des vues spectaculaires sur le glacier. Des options plus courtes sont disponibles.",
+        "🐎 <strong>Rencontre avec les habitants et découverte de la vie locale</strong>: Prenez le temps de vous imprégner de l'ambiance d'Ushguli, d'observer la vie quotidienne des Svanes et de peut-être déguster des spécialités locales dans une guesthouse."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "💧",
+          "titre": "Hydratation",
+          "texte": "Emportez suffisamment d'eau et des en-cas pour vos randonnées, car les points de ravitaillement sont rares."
+        },
+        {
+          "symbole": "🗣️",
+          "titre": "Langue",
+          "texte": "Quelques mots de géorgien ou de russe peuvent être utiles, mais l'anglais est de plus en plus parlé dans les zones touristiques."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🌄",
+      "titre": "Retour vers Mestia et Vues Panoramiques",
+      "legende": "Quittez les hauteurs d'Ushguli pour redescendre vers Mestia, non sans profiter une dernière fois des paysages grandioses de la Svanétie. Cette journée offre une transition douce, avec une activité légère pour digérer les émotions de l'immersion montagnarde. Profitez des panoramas exceptionnels sur les sommets emblématiques de la région.",
+      "lieu": "Ushguli / Mestia",
+      "activites": [
+        "🏞️ <strong>Retour Mestia et point de vue sur le Mont Ouchba</strong>: Reprenez la route vers Mestia. En chemin, arrêtez-vous à des points de vue stratégiques pour admirer le majestueux Mont Ouchba, souvent surnommé le \"Cervin du Caucase\".",
+        "🚡 <strong>Montée en télésiège au Mont Zuruldi</strong>: Prenez le télésiège depuis Mestia pour atteindre le Mont Zuruldi. Profitez d'un panorama à 360 degrés sur les sommets enneigés de la Svanétie et les vallées verdoyantes."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "Le Mont Ouchba est l'un des sommets les plus photogéniques du Caucase, ne manquez pas l'occasion de le capturer."
+        },
+        {
+          "symbole": "☕",
+          "titre": "Pause",
+          "texte": "Au sommet du Mont Zuruldi, un café vous attend pour une pause avec une vue imprenable."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🌃",
+      "titre": "Retour vers Tbilissi et dernière soirée géorgienne",
+      "legende": "Le voyage de retour vers la capitale marque la fin de votre immersion montagnarde. Profitez des derniers paysages de la Svanétie avant de retrouver l'effervescence de Tbilissi. Cette soirée sera l'occasion de savourer un dernier repas géorgien, de faire quelques emplettes de souvenirs ou simplement de vous remémorer les moments forts de votre aventure.",
+      "lieu": "Mestia / Zougdidi / Tbilissi",
+      "activites": [
+        "🚐 <strong>Trajet Mestia - Zougdidi en marshrutka ou 4x4</strong>: Reprenez la route pittoresque de la Svanétie pour rejoindre Zougdidi, où vous pourrez déjeuner avant de continuer votre voyage.",
+        "🚆 <strong>Trajet Zougdidi - Tbilissi en train de nuit</strong>: Embarquez à nouveau pour un train de nuit confortable qui vous ramènera à Tbilissi, vous permettant de vous reposer après cette aventure montagnarde."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "Les marchés de Tbilissi regorgent d'artisanat local, de bijoux en émail cloisonné et de produits du vin."
+        },
+        {
+          "symbole": "🎶",
+          "titre": "Culture",
+          "texte": "Si l'occasion se présente, assistez à un spectacle de danse ou de chant polyphonique géorgien pour une expérience culturelle unique."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "✈️",
+      "titre": "Départ de Tbilissi",
+      "legende": "Après un voyage riche en découvertes et en émotions, il est temps de dire au revoir à la Géorgie. Profitez d'un dernier petit-déjeuner typiquement géorgien avant votre transfert à l'aéroport. Vous repartirez avec des souvenirs impérissables des paysages grandioses du Caucase et de l'hospitalité chaleureuse du peuple géorgien.",
+      "lieu": "Tbilissi",
+      "activites": [
+        "🛍️ <strong>Derniers achats de souvenirs ou temps libre</strong>: Selon l'heure de votre vol, profitez d'un peu de temps libre pour acheter les derniers souvenirs ou vous détendre dans un café.",
+        "✈️ <strong>Transfert à l'aéroport et vol retour</strong>: Un transfert organisé vous conduira à l'aéroport international de Tbilissi pour votre vol de retour vers Paris, emportant avec vous des souvenirs inoubliables de la Géorgie."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🛂",
+          "titre": "Formalités",
+          "texte": "Assurez-vous d'avoir tous vos documents de voyage et votre passeport à portée de main pour les formalités de départ."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "450€/pers (vol A/R Paris-Tbilissi en classe économique)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "160€/pers (train de nuit, marshrutkas, 4x4 Mestia-Ushguli, taxis locaux)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "315€/pers (environ 35€/jour pour 9 jours, repas variés et locaux)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "540€/pers (9 nuits en hôtels 3 étoiles ou guesthouses confortables, env. 60€/nuit)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "120€/pers (musées, bains de soufre, télésiège, éventuel guide de randonnée)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mai, juin et septembre.",
+      "symbole": "🍁"
+    },
+    {
+      "titre": "Ces mois offrent des températures agréables pour la randonnée et des paysages verdoyants ou aux couleurs de l'automne.",
+      "symbole": "☀️"
+    },
+    {
+      "titre": "Évitez l'hiver (neige abondante rendant Ushguli difficile d'accès) et le pic de l'été (chaleur et affluence).",
+      "symbole": "❄️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La Géorgie est un pays du Caucase, carrefour entre l'Europe et l'Asie, réputé pour son hospitalité légendaire et ses paysages variés.",
+      "symbole": "🇬🇪"
+    },
+    {
+      "titre": "Les Svanes, habitants de la Svanétie, sont un groupe ethnique distinct avec leur propre langue et des traditions ancestrales, notamment leurs célèbres tours défensives.",
+      "symbole": "👥"
+    },
+    {
+      "titre": "La Géorgie est le berceau du vin, avec une tradition viticole millénaire. Ne manquez pas de goûter les vins locaux, souvent fermentés en qvevri (jarres en terre cuite).",
+      "symbole": "🍷"
+    },
+    {
+      "titre": "L'alphabet géorgien est unique au monde, avec 33 lettres. C'est l'un des 14 alphabets existants.",
+      "symbole": "✍️"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Infos officielles et inspirations",
+      "titre": "Tourisme Géorgie",
+      "url": "https://georgia.travel/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Horaires et réservation des trains",
+      "titre": "Georgian Railways",
+      "url": "https://www.railway.ge/en/",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Prévisions météo pour Tbilissi",
+      "titre": "Météo Tbilissi",
+      "url": "https://www.accuweather.com/fr/ge/tbilisi/295212/weather-forecast/295212",
+      "symbole": "🌤️"
+    }
+  ]
+}
